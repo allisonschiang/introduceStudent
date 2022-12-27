@@ -6,8 +6,6 @@ A simple app that allows users to input information about themselves and it will
 
 ### App Walk-though
 
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif). LICEcap is a great tool for recording and you can simply upload the gif to GitHub and provide the path name in place of URL as shown below.
-
 <img src="https://media.giphy.com/media/v9oCsQAF82RPDpvO3h/giphy.gif" width=200><br> 
 
 
