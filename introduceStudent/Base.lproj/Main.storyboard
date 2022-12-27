@@ -107,15 +107,23 @@
                                     <action selector="stepperDidChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="pnq-EK-7lh"/>
                                 </connections>
                             </stepper>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Aar-wN-W1r">
-                                <rect key="frame" x="269" y="528" width="49" height="31"/>
+                            <colorWell contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rx2-7l-ICP">
+                                <rect key="frame" x="278" y="588" width="28" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </switch>
+                            </colorWell>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fav Color?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qVh-kx-yiU">
+                                <rect key="frame" x="28" y="595" width="80" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="colorChooser" destination="rx2-7l-ICP" id="OyR-0r-Ceg"/>
                         <outlet property="firstNameTextbox" destination="jE0-ol-HOW" id="rAR-lz-UMU"/>
                         <outlet property="introduceButton" destination="OsT-lO-5F0" id="Yld-un-vgL"/>
                         <outlet property="lastNameTextbox" destination="Mqk-4I-3Hg" id="3We-Pd-iAn"/>
